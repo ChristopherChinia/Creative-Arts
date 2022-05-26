@@ -20,20 +20,21 @@ max-width: 430px;
 width: 100%;
 background-color: #fff;
 box-shadow: 5px 5px 5px transparent;
-height: 50%;
+max-height:430px ;
+margin-top: 20%;
 }
 
 .container>.logIn{
     padding: 50px;
 }
 
-.container>.logIn>.title{
+.container>.logIn>.login-form>.title{
     font-size:30px;
     font-weight: 600;
     position: relative;
 }
 
-.logIn>.title::before{
+.logIn>.login-form>.title::before{
     content:'';
     position: absolute;
     left: 0;
@@ -44,3 +45,42 @@ height: 50%;
     border-radius: 25px;
 }
 
+.logIn>.login-form>form>.input{
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    position: relative;
+
+}
+
+
+.logIn>.login-form>form>.input>input{
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #4070f4;
+    border-top: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+.logIn>.login-form>form>.input>i{
+    position:absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 24px;
+    
+}
+
+.logIn>.login-form>form>.input>i.icon{
+    left: 0;
+
+}
+
+.logIn>.login-form>form>.input>i.Hide{
+    margin-left: 95%;
+}
