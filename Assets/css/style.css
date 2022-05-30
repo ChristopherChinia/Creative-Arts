@@ -99,7 +99,6 @@ border-radius: 6px;
 }
 
 .logIn .checkbox-text{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
