@@ -64,7 +64,12 @@ margin-top: 20%;
     border-bottom: 2px solid #4070f4;
     border-top: 2px solid white;
     border-radius: 5px;
+    transition: all 0.3 ease;
     
+}
+
+.logIn>.login-form>form>.input>input:is(:focus, :valid){
+    border-bottom-color: #4070f4;
 }
 
 .logIn>.login-form>form>.input>i{
@@ -76,11 +81,61 @@ margin-top: 20%;
     
 }
 
+.logIn>.login-form>form>.input>input:is(:focus, :valid) ~ i{
+    color: #4070f4;
+}
+
 .logIn>.login-form>form>.input>i.icon{
     left: 0;
 
 }
 
-.logIn>.login-form>form>.input>i.Hide{
-    margin-left: 95%;
+.logIn .checkbox-text{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.checkbox-content{
+    accent-color: #4070f4;
+}
+
+.logIn a{
+    text-decoration: none;
+}
+
+.logIn a:hover{
+    text-decoration: underline;
+}
+
+.logIn .input-button{
+    margin-top: 25px;
+}
+
+.logIn .input-button>input{
+    padding: 10px 100px 10px 100px ;
+    background-color: lightgray;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #4070f4;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.logIn .input-button>input:hover{
+    box-shadow: 3px 3px 3px royalblue;
+}
+
+.logIn .signup{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logIn .signup>span>a{
+    color: royalblue;
 }
