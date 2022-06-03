@@ -468,9 +468,17 @@ section.body>div.sect1>button#sect3{
     padding: 10px;
     border-left: 15px;
     background-color:black;
-    color: yellow;
+    color: gold;
     border-radius: 0px 15px 0px 15px;
     font-size: 20px;
+    cursor: pointer;
+}
+
+section.body>div.sect1>button#sect3:hover{
+    background-color: #4070f4;
+    box-shadow: 5px 2px 5px #4070f4;
+    border: 2px solid #4070f4;
+    color: gold;
     
 }
 
@@ -577,6 +585,7 @@ section.upperPart .boxCon .Des>p{
 section.similar{
     border-radius: 15px;
     box-shadow: 15px 15px 15px grey;
+    border: 1px solid red;
 }
 
 section.similar>div.slone>h3{
@@ -584,10 +593,21 @@ section.similar>div.slone>h3{
     font-size: 40px;
 }
 
-section.similar>div.pic>img{
-height: 250px;
-width: 450px;
+section.similar .carryOne{
+    display: flex;
+    justify-content: space-between;
 }
+
+section.similar .carryOne .pic1{
+
+}
+
+section.similar .carryOne .pic1>img{
+    height: 250px;
+    width: 377px;
+}
+
+
 
 /* back Section */
 footer.back{
