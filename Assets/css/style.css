@@ -7,12 +7,30 @@
 
 
 body{
-    background-color: #4070f4;
-    height: 100vh;
+    
+     background-image: url(../images/backgroundunsplash.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    height: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
+    
 }
+
+/* .top{
+    display: flex;
+    align-items: center;
+    height: 640px;
+    justify-content: space-between;
+    margin-top: 10%;
+    transition: height 0.2s ease;
+}
+
+.top.active{
+    height: 640px;
+} */
+
 
 .container{
 position: relative;
@@ -20,14 +38,15 @@ max-width: 430px;
 width: 100%;
 background-color: #fff;
 box-shadow: 5px 5px 5px transparent;
-max-height:455px ;
-margin-top: 20%;
+height:455px ;
+margin-top: 5%;
 border-radius: 6px;
 }
 
 .container>.logIn{
     padding: 50px;
 }
+
 
 .container>.logIn>.login-form>.title{
     font-size:30px;
@@ -155,10 +174,8 @@ border-radius: 6px;
     width: 100%;
     background-color: #fff;
     box-shadow: 5px 5px 5px transparent;
-    max-height:800px ;
-    margin-top: 20%;
+    max-height:700px ;
     border-radius: 6px;
-    margin-left: 40px;
     }
     
     .container-2>.logIn{
