@@ -586,25 +586,63 @@ section.similar{
     border-radius: 15px;
     box-shadow: 15px 15px 15px grey;
     border: 1px solid red;
+    padding: 30px;
 }
 
 section.similar>div.slone>h3{
-    font-weight: 200;
+    font-weight: 600;
     font-size: 40px;
 }
 
 section.similar .carryOne{
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
 section.similar .carryOne .pic1{
-
+    border: 1px solid red;
 }
 
 section.similar .carryOne .pic1>img{
     height: 250px;
-    width: 377px;
+    width: 350px;
+}
+
+section.similar .carryOne .pic2{
+    border: 1px solid red;
+}
+
+section.similar .carryOne .pic2>img{
+    height: 250px;
+    width: 350px;
+}
+
+section.similar .carryOne .pic3{
+    border: 1px solid red;
+}
+
+section.similar .carryOne .pic3>img{
+    height: 250px;
+    width: 350px;
+}
+
+section.similar .carryOne .pic4{
+    border: 1px solid red;
+}
+
+section.similar .carryOne .pic4>img{
+    height: 250px;
+    width: 350px;
+}
+
+section.similar .carryOne .pic5{
+    border: 1px solid red;
+}
+
+section.similar .carryOne .pic5>img{
+    height: 250px;
+    width: 350px;
 }
 
 
