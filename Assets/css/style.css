@@ -305,7 +305,7 @@ border-radius: 6px;
 
 /* Navigation */
 nav.page{
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/backgroundunsplash.jpg");
     padding: 0;
     justify-content: space-between;
     background-size: cover;
@@ -313,7 +313,28 @@ nav.page{
     background-repeat: no-repeat;
     width: 100%;
     height: 700px;
-    
+    border-radius: 15px;
+}
+
+nav.page .begIn{
+    text-align: center;
+    padding: 20px 20px 0px ;
+    color: #4070f4;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+
+nav.page .begIn> span{
+    color: gold;
+}
+
+nav.page>ul{
+    border: 1px solid red;
+    padding: 20px;
+
 }
 
 nav.page>ul>li{
@@ -323,34 +344,59 @@ nav.page>ul>li{
     font-size: medium;
     color: white;
     margin-right: 50px;
+    
 }
 
 nav.page>ul>li.topOne{
-margin-left: 55%;
+margin-left:50%;
 
 }
 
 
 nav.page>ul>li.connect>button{
-    border: 3px yellow;
-    color: black;
-    background-color: rgb(255, 166, 0);
-    padding: 5px 20px 10px 20px;
-    border-radius: 0px 15px 0px 0px;
+    border: 3px #4070f4;
+    background-color:#4070f4;
+    padding:  10px 20px;
+    border-radius:6px;
+    cursor: pointer;
 }
 nav.page>div.topic{
     color: grey;
-    width: 100%;
-    margin-left:15px;
     display: flex;
-    flex-direction:row;
+    justify-content: space-around;
+    
 }
 
-nav.page>div.topic>h2#dollars{
+.page>.topic .hone{
+    display: inline;
+    justify-content:space-around;
+    border: 1px solid red;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.page>.topic .hTwo{
+    display: inline;
+    justify-content:space-around;
+    border: 1px solid red;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+nav.page>div.topic>.hone .modern{
     color: white;
-    margin-left: 80%;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 10px;
+}
+
+nav.page>div.topic>.hTwo #dollars{
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 10px;
     
 }
 
