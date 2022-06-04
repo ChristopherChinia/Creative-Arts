@@ -29,45 +29,44 @@ eyeShow.forEach(eyeIcon =>{
     })
 })
 
-// js code to appear signup and login
-signup.addEventListener("click",()=>{
-    container.classList.add("active");
-})
-logIn.addEventListener("click",()=>{
-    container.classList.remove("active");
-});
+
+// Validation login and registation page
+
+function validateInputs(){
+    alert("Welcome...")
+}
 
 
 
-
-
-
-
-
-
+function text(){
+    alert("please wait...")
+}
+function sign(){
+    alert("please wait...")
+}
 
 
 
 
 // Property page 
 function topOne(){
-    alert("View doctors available section")
+    alert("Welcome Home")
 }
 function topTwo(){
     alert("please wait...")
 }
 function topThree(){
-    alert("No Notes Available")
+    alert("please wait...")
 }
-function topFour(){
-    alert("User Busy")
-}
+
 function topFour(){
     alert("Tel:0701-000-000")
 }
 function but(){
-    alert("User Busy")
+    alert("More info on the service section")
 }
 function sect(){
-    alert("User Busy")
+    alert("More for less? Visit our service link.")
 }
+
+
