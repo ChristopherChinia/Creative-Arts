@@ -1,163 +1,81 @@
-/* Registration form */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:sans-serif;
-}
 
-
-body.index{
-    
-     background-image: url(../images/backgroundunsplash.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-    height: 100%;
+  .container{
+    border: 2px solid;
+    width: 450px;
+    height: 500px;
     display: flex;
-    text-align: center;
     justify-content: center;
-    
-}
-
-.top{
-    margin-top: 10%;
-}
-
-
-.container-2{
+    align-items: center;
     position: relative;
-    max-width: 430px;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 5px 5px 5px transparent;
-    max-height:700px ;
+    margin: 9% auto;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 13px;
+    background-color:white;
+  }
+  
+  .avatar{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 100%;
+    top: -5.5em;
+    margin-left: 4em;
+  }
+  
+  input{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0, 0.6);
+    padding: 15px 20px;
+    margin: 5px 0;
+    outline: none;
+  }
+  
+  
+  .loginbtn{ 
+    background-color : cyan;
     border-radius: 6px;
-    }
-    
-    .container-2>.logIn{
-        padding: 50px;
-    }
-    
-    .container-2>.logIn>.login-form>.title{
-        font-size:30px;
-        font-weight: 600;
-        position: relative;
-        right: 25%;
-       
-    }
-    
-    .logIn>.login-form>.title::before{
-        content:'';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 3px;
-        width: 30px;
-        background-color: #4070f4;
-        border-radius: 25px;
-    }
-    
-    .logIn>.login-form>form>.input{
-        margin-top: 40px;
-        width: 100%;
-        height: 50px;
-        position: relative;
-    
-    }
-    
-    
-    .logIn>.login-form>form>.input>input{
-        height: 100%;
-        width: 100%;
-        padding: 0 35px;
-        font-size: 16px;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid #4070f4;
-        border-top: 2px solid white;
-        border-radius: 5px;
-        transition: all 0.3 ease;
-        
-    }
-    
-    .logIn>.login-form>form>.input>input:is(:focus, :valid){
-        border-bottom-color: #4070f4;
-    }
-    
-    .logIn>.login-form>form>.input>i{
-        position:absolute;
-        top: 50%;
-        left: 0;
-        transform: translateY(-50%);
-        font-size: 24px;
-        
-    }
-    
-    .logIn>.login-form>form>.input>input:is(:focus, :valid) ~ i{
-        color: #4070f4;
-    }
-    
-    .logIn>.login-form>form>.input>i.icon{
-        left: 0;
-    }
-
-    .logIn>.login-form>form>.input>i.showEye{
-        right: 0;
-        padding-left: 90%;
-    }
-    
-    .logIn .checkbox-text{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        align-items: center;
-    }
-    
-    .checkbox-content{
-        accent-color: #4070f4;
-    }
-    
-    .logIn a{
-        text-decoration: none;
-        color: #4070f4;
-    }
-    
-    .logIn a:hover{
-        text-decoration: underline;
-    }
-    
-    .logIn .input-button{
-        margin-top: 25px;
-    }
-    
-    .logIn .input-button>button{
-        padding: 10px 100px 10px 100px ;
-        background-color: lightgray;
-        border: none;
-        font-size: 18px;
-        font-weight: 500;
-        background-color: #4070f4;
-        color: #fff;
-        border-radius: 6px;
-        cursor: pointer;
-        
-    }
-    
-    .logIn .input-button>button:hover{
-        box-shadow: 3px 3px 3px royalblue;
-    }
-    
-    .logIn .input-button>button>a{
-        color: #fff;
-        font-size: 18px;
-    }
-    
-    .logIn .signup{
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-    .logIn .signup>span>a{
-        color: royalblue;
-        font-weight: 600;
-    }
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    height: 44px;
+    margin: 12px 6px 10px 0px;
+    width: 40%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .registerbtn{
+    background-color : cyan;
+    border-radius: 6px 6px 6px 6px;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    height: 64px;
+    margin: 12px 2px 10px 0px;
+    width: 100%;
+  }
+  
+  #log-in{
+    top:50px;
+  }
+  
+  #register{
+    display: none;
+  }
+  
+  .error-{
+    margin:15px 0 5px 0 ;
+    background: #e74c3c;
+    padding: 8px;
+    display: none;
+  }
+  
+  .error:before{
+    position: absolute;
+    right: 20px;
+  }
