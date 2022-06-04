@@ -25,6 +25,7 @@ body.index{
     justify-content: space-between;
     margin-top: 10%;
     transition: height 0.2s ease;
+    background-color: red;
 }
 
 /* .top.active{
@@ -130,6 +131,7 @@ border-radius: 6px;
 
 .logIn a{
     text-decoration: none;
+    color: #4070f4;
 }
 
 .logIn a:hover{
@@ -263,6 +265,7 @@ border-radius: 6px;
     
     .logIn a{
         text-decoration: none;
+        color: #4070f4;
     }
     
     .logIn a:hover{
