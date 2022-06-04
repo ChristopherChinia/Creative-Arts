@@ -314,6 +314,7 @@ nav.page{
     width: 100%;
     height: 700px;
     border-radius: 15px;
+    border: 1px solid red;
 }
 
 nav.page .begIn{
@@ -358,58 +359,59 @@ nav.page>ul>li.connect>button{
     border-radius:6px;
     cursor: pointer;
 }
-nav.page>div.topic{
+    nav.page>div.topic{
     color: grey;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    border: 1px solid red;
     
 }
 
-.page>.topic .hone{
+    .page>.topic .hone{
     display: inline;
     justify-content:space-around;
     padding-bottom: 20px;
     margin-top: 50px;
 }
 
-.page>.topic .hTwo{
+    .page>.topic .hTwo{
     display: inline;
     justify-content:space-around;
     padding-bottom: 20px;
     margin-top: 50px;
-}
+} */
 
-nav.page>div.topic>.hone .modern{
+     nav.page>div.topic>.hone .modern{
     color:gold;
     font-style: italic;
     font-weight: 900;
     font-size: 50px;
     padding: 10px;
-}
+} 
 
-nav.page>div.topic>.hTwo #dollars{
+    nav.page>div.topic>.hTwo #dollars{
     color: gold;
     font-style: italic;
     font-weight: 900;
     font-size: 50px;
     padding: 10px;
     
-}
+} 
 
-nav.page>div.topic>h2#dollars>span{
+    nav.page>div.topic>h2#dollars>span{
     font-size: small;
     margin-left: 30px;
-}
+} 
 
-nav.page>div.topic>h2.modern,p{
+     nav.page>div.topic>h2.modern,p{
  color: white;
  
-}
+} 
 
-nav.page>div.topic>p{
+     nav.page>div.topic>p{
  padding: 0% 0% 5% 0%; 
  color: grey;  
-}
+}   
 
 /* Front section */ 
 
