@@ -39,3 +39,35 @@ logIn.addEventListener("click",()=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+// Property page 
+function topOne(){
+    alert("View doctors available section")
+}
+function topTwo(){
+    alert("please wait...")
+}
+function topThree(){
+    alert("No Notes Available")
+}
+function topFour(){
+    alert("User Busy")
+}
+function topFour(){
+    alert("Tel:0701-000-000")
+}
+function but(){
+    alert("User Busy")
+}
+function sect(){
+    alert("User Busy")
+}

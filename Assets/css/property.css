@@ -15,7 +15,12 @@ nav.page{
     border: 1px solid red;
 }
 
-nav.page .begIn{
+nav.page>.infom{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.page>.infom .begIn{
     text-align: start;
     padding: 20px 20px 0px ;
     color: #4070f4;
@@ -24,16 +29,16 @@ nav.page .begIn{
     font-size: 40px;
 }
 
-nav.page .begIn> span{
+nav.page>.infom .begIn> span{
     color: gold;
 }
 
-nav.page>ul{
+nav.page>.infom>ul{
     padding: 20px;
 
 }
 
-nav.page>ul>li{
+nav.page>.infom>ul>li{
     display: inline-block;
     margin-top: 15px;
     padding: 10px;
@@ -43,13 +48,28 @@ nav.page>ul>li{
     
 }
 
-nav.page>ul>li.topOne{
-margin-left:50%;
 
+nav.page>.infom>ul>li.topOne>a{
+    text-decoration: none;
+    color: gold;
 }
 
+nav.page>.infom>ul>li.topOne>a:hover{
+    text-decoration: underline;
+    color: #4070f4;
+}
 
-nav.page>ul>li.connect>button{
+nav.page>.infom>ul>li.top>a{
+    text-decoration: none;
+    color: gold;
+}
+
+nav.page>.infom>ul>li.top>a:hover{
+    text-decoration: underline;
+    color: #4070f4;
+}
+
+nav.page>.infom>ul>li.connect>button{
     border: 3px #4070f4;
     background-color:#4070f4;
     padding:  10px 20px;
@@ -57,6 +77,12 @@ nav.page>ul>li.connect>button{
     border-radius:6px;
     cursor: pointer;
 }
+
+nav.page>.infom>ul>li.connect>button:hover{
+    background-color: gold;
+    color: #4070f4;
+}
+
     nav.page>div.topic{
     color: grey;
     display: flex;
