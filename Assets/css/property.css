@@ -1,0 +1,526 @@
+ /* Property page styling */
+    /* Styles for page file */
+
+/* Navigation */
+nav.page{
+    background-image: url("../images/backgroundunsplash.jpg");
+    padding: 0;
+    justify-content: space-between;
+    background-size: cover;
+    opacity: 1.1;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    border-radius: 15px;
+    border: 1px solid red;
+}
+
+nav.page .begIn{
+    text-align: start;
+    padding: 20px 20px 0px ;
+    color: #4070f4;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+nav.page .begIn> span{
+    color: gold;
+}
+
+nav.page>ul{
+    padding: 20px;
+
+}
+
+nav.page>ul>li{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: medium;
+    color: white;
+    margin-right: 50px;
+    
+}
+
+nav.page>ul>li.topOne{
+margin-left:50%;
+
+}
+
+
+nav.page>ul>li.connect>button{
+    border: 3px #4070f4;
+    background-color:#4070f4;
+    padding:  10px 20px;
+    color: gold;
+    border-radius:6px;
+    cursor: pointer;
+}
+    nav.page>div.topic{
+    color: grey;
+    display: flex;
+    justify-content: space-around; 
+    max-height: 440px;
+    
+}
+
+    .page>.topic .hone{
+    display: inline;
+    justify-content:space-around;
+    padding-bottom: 50px;
+}
+
+    .page>.topic .hTwo{
+    display: inline;
+    justify-content:space-around;
+    padding-bottom: 20px;
+} 
+
+     nav.page>div.topic>.hone .modern{
+    color:gold;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+} 
+
+    nav.page>div.topic>.hTwo #dollars{
+    color: gold;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    
+} 
+
+    nav.page>div.topic>h2#dollars>span{
+    font-size: small;
+    margin-left: 30px;
+} 
+
+     nav.page>div.topic>h2.modern,p{
+ color: white;
+ 
+} 
+
+     nav.page>div.topic>p{
+ padding: 0% 0% 5% 0%; 
+ color: grey;  
+}   
+
+/* Front section */ 
+
+section.body{
+    justify-content: space-between;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+section.body>img{
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 100%;
+    box-shadow: 5px 5px 5px #4070f4;
+    border-radius: 15px 0px 15px 0px;
+
+}
+
+section.body>div.sect1{
+    float: right;
+    margin-top:70px;
+    margin-right: 15%;
+    font-size: 40px;
+    
+}
+
+section.body>div.sect1>hr{
+    margin-right: 70%;
+    height:2px; 
+    width: 100px;
+    border: 0 ;
+    background-color: grey;
+    
+}
+
+section.body>div.sect1>h2.head{
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 0px 0px 0px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+section.body>div.sect1>p.sect2{
+    font-size: large;
+    font-style: unset;
+    color: gray;
+    font-size: 25px;
+}
+section.body>div.sect1>button#sect3{
+    padding: 10px;
+    border-left: 15px;
+    background-color:black;
+    color: gold;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+section.body>div.sect1>button#sect3:hover{
+    background-color: #4070f4;
+    box-shadow: 5px 2px 5px #4070f4;
+    border: 2px solid #4070f4;
+    color: gold;
+    
+}
+
+/* Upper Part */
+section.upperPart{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+section.upperPart>img{
+    border-radius: 15px 0px 15px 0px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 100%;
+    box-shadow: 5px 5px 5px #4070f4;
+}
+
+section.upperPart .boxCon{
+    display: flexbox;
+    justify-content: space-around;
+    
+}
+
+section.upperPart .boxCon .aries{
+    border: 1px solid #4070f4;
+    padding: 20px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section.upperPart .boxCon .aries:hover{
+    background-color: #4070f4;
+    color:#fff;
+    box-shadow: 5px 2px 5px #4070f4;
+}
+
+section.upperPart .boxCon .aries>h3{
+    font-size: 20px;
+}
+
+section.upperPart .boxCon .aries>p{
+    color: black;
+
+}
+
+section.upperPart .boxCon .detail{
+    border: 1px solid #4070f4;
+    padding: 20px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section.upperPart .boxCon .detail:hover{
+    background-color: #4070f4;
+    color:#fff;
+    box-shadow: 5px 2px 5px #4070f4;
+}
+
+
+section.upperPart .boxCon .detail>h3{
+    font-size: 20px;
+}
+
+section.upperPart .boxCon .detail>p{
+    color: black;
+
+}
+
+
+
+section.upperPart .boxCon .Des{
+    border: 1px solid #4070f4;
+    padding: 20px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section.upperPart .boxCon .Des:hover{
+    background-color: #4070f4;
+    color:#fff;
+    box-shadow: 5px 2px 5px #4070f4;
+}
+
+section.upperPart .boxCon .Des>h3{
+    font-size: 20px;
+}
+
+section.upperPart .boxCon .Des>p{
+    color: black;
+    background-color: transparent;
+
+}
+
+
+
+/* Middle Section */
+section.similar{
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px grey;
+    padding: 30px;
+}
+
+section.similar>div.slone>h3{
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: 5px solid #4070f4;
+    max-width: 16%;
+}
+
+section.similar .carryOne{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+section.similar .carryOne .pic1{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic1>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic1 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic1 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic1 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic1 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic2{
+    padding: 5px;
+    
+}
+
+section.similar .carryOne .pic2>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic2 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic2 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic2 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic2 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic3{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic3>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic3 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic3 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic3 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic3 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic4{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic4>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic4 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic4 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic4 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic4 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic5{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic5>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic5 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic5 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic5 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic5 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+
+
+/* back Section */
+footer.back{
+    border-radius: 15px;
+    background-image: url(../images/8.jpg);
+    box-shadow: 5px 5px 5px grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+footer.back>div.reality{
+    display: flex;
+    flex-direction: column;
+}
+
+footer.back>div.reality>h3{
+color: white;
+font-weight: 200;
+font-size: 30px;
+
+}
+
+footer.back>div.reality>h3>span{
+color: rgb(255, 145, 0);
+margin-left: 40px;
+}
+footer.back>div.reality>button{
+    margin-left: 60%;
+    background-color: rgb(255, 174, 0);
+    border-radius: 0px 15px 0px 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+footer.back>i{
+    margin: 30px 30px 0px 30px;
+    color: white;
+}
+
+footer.back>div.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top:5px;
+    font-size:auto ;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    flex-direction: row;
+}
