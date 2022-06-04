@@ -317,22 +317,19 @@ nav.page{
 }
 
 nav.page .begIn{
-    text-align: center;
+    text-align: start;
     padding: 20px 20px 0px ;
     color: #4070f4;
     font-style: italic;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
 }
-
-
 
 nav.page .begIn> span{
     color: gold;
 }
 
 nav.page>ul{
-    border: 1px solid red;
     padding: 20px;
 
 }
@@ -448,8 +445,6 @@ section.body>div.sect1>hr{
     background-color: grey;
     
 }
-
-
 
 section.body>div.sect1>h2.head{
     font-family:'Times New Roman', Times, serif ;
