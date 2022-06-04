@@ -17,7 +17,6 @@
 The website is a user-friendly platform that enables users to view,add to cart and make inquires about the range of products we provide at an affordable price.
 The web-site has alogin page that requires password and email to accesss the property page, if the user doesnot have an account then he/she can sign up through the registration form. Here we value our customer experience because your wish is our command. Enjoy!.
 
-* To see the design visit:
 
 [Go Back to the top](#Moringa-School)
 
@@ -47,7 +46,7 @@ As a user of this site,you will be able to:
   [Go Back to the top](#Moringa-School)
 ### Live Link
 
- Click this link to view the live application:  
+ Click this link to view the live application:  https://christopherchinia.github.io/Creative-Arts/ 
 
  ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
