@@ -4,14 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="/Assets/css/style.css">
     <title>Registration</title>
 </head>
 <body>
-    
+    <!--Registration form  -->
+<section class="top">
+ <div class="container-2">
+    <div class="logIn">
+        <div class="login-form">
+            <span class="title">Registration</span>
+            <form action="#">
+                <!-- Reg-Name -->
+                <div class="input">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <i class="uil uil-user icon"></i>
+                </div>
+                <!-- Reg-Email -->
+                <div class="input">
+                    <input type="text" placeholder="Enter Your Email" required>
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <!-- Reg-Password -->
+                <div class="input">
+                    <input type="password" class="password" placeholder="Enter Your password" required>
+                    <i class="uil uil-lock icon"></i>
+                </div>
+                <div class="input">
+                    <input type="password" class="password" placeholder="Confirm Your password" required>
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showEye"></i>
+                </div>
+                <!-- Reg-checkbox -->
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="text">Remember me</label>
+                    </div>
+                    <a href="#" class="text">Forgot password?</a>
+                </div>
+
+                <!-- Login button -->
+                <div class="input-button">
+                    <input type="button" value="Login now">
+                </div>
+            </form>
+            <!-- Sign up text -->
+        <div class="signup">
+            <span class="text">Not a member?
+                <a href="" class="logIn-link">Signup now</a>
+            </span>
+         </div>
+     </div>
+</div> 
+</div>
+</section>
 
 
-
+    <!-- Javascript section  -->
     <script src="./Assets/Js/main.js"></script>
 </body>
 </html>
