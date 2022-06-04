@@ -18,7 +18,7 @@ body.index{
     
 }
 
-/* .top{
+.top{
     display: flex;
     align-items: center;
     height: 640px;
@@ -27,7 +27,7 @@ body.index{
     transition: height 0.2s ease;
 }
 
-.top.active{
+/* .top.active{
     height: 640px;
 } */
 
