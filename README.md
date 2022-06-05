@@ -15,7 +15,7 @@
  ## Description
 
 The website is a user-friendly platform that enables users to view,add to cart and make inquires about the range of products we provide at an affordable price.
-The web-site has alogin page that requires password and email to accesss the property page, if the user doesnot have an account then he/she can sign up through the registration form. Here we value our customer experience because your wish is our command. Enjoy!.
+ Here we value our customer experience because your wish is our command. Enjoy!.
 
 
 [Go Back to the top](#Moringa-School)
